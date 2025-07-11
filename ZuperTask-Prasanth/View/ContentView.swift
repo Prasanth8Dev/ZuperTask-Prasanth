@@ -20,7 +20,6 @@ struct ContentView: View {
                 List(viewModel.filteredServices, id: \.id) { service in
 //                    NavigationLink(destination: ServiceDetailView(service: service)) {
                         ServiceRowView(service: service)
-                            
                             .onTapGesture {
                                 selectedService = service
                         }
