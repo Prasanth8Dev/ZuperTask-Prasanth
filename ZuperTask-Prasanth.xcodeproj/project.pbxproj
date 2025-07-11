@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		236BDDA32E2133B90082F8D3 /* ServicesSampleData in Frameworks */ = {isa = PBXBuildFile; productRef = 236BDDA22E2133B90082F8D3 /* ServicesSampleData */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		236BDD8E2E2130050082F8D3 /* ZuperTask-Prasanth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZuperTask-Prasanth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236BDDA32E2133B90082F8D3 /* ServicesSampleData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "ZuperTask-Prasanth";
 			packageProductDependencies = (
+				236BDDA22E2133B90082F8D3 /* ServicesSampleData */,
 			);
 			productName = "ZuperTask-Prasanth";
 			productReference = 236BDD8E2E2130050082F8D3 /* ZuperTask-Prasanth.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 236BDD852E2130050082F8D3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				236BDDA12E2133B90082F8D3 /* XCRemoteSwiftPackageReference "ServicesSampleData" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 236BDD8F2E2130050082F8D3 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		236BDDA12E2133B90082F8D3 /* XCRemoteSwiftPackageReference "ServicesSampleData" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sabari-zuper/ServicesSampleData.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		236BDDA22E2133B90082F8D3 /* ServicesSampleData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 236BDDA12E2133B90082F8D3 /* XCRemoteSwiftPackageReference "ServicesSampleData" */;
+			productName = ServicesSampleData;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 236BDD862E2130050082F8D3 /* Project object */;
 }
